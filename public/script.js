@@ -6,10 +6,10 @@ let statusInterval = null;
 let timeLeft = 120;
 
 // ========================================
-// API LOCALE
+// API PRODUCTION
 // ========================================
 
-const API_URL = "";
+const API_URL = "https://mepay.up.railway.app";
 
 // ===========================
 // DROPDOWN
