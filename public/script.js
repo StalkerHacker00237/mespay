@@ -170,8 +170,13 @@ async function checkStatus(token) {
             stopTimer();
 
             openModal(
-                "✅ Paiement réussi",
-                false
+                "✅ Paiement réussi !\n\n" +
+        "Votre paiement a bien été confirmé. " +
+        "Votre fiche de pré-enrôlement vous sera envoyée par e-mail dans un délai pouvant aller jusqu’à 24 heures.\n\n" +
+        "Ce délai est exceptionnellement lié à une forte demande et à la surcharge temporaire de nos serveurs. " +
+        "Nous vous remercions pour votre patience et vous invitons à ne pas vous inquiéter si vous ne recevez pas immédiatement votre fiche.\n\n" +
+        "Merci pour votre confiance.",
+        false
             );
 
             return;
