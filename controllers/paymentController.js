@@ -126,7 +126,7 @@ export const createPayment = async (req, res) => {
 
             operator,
 
-            amount: 100,
+            amount: 10000,
 
             orderId
 
@@ -143,7 +143,7 @@ export const createPayment = async (req, res) => {
 
                 operator,
 
-                amount: 100,
+                amount: 10000,
 
                 orderId
 
@@ -229,7 +229,7 @@ export const createPayment = async (req, res) => {
 
             operator,
 
-            amount: 100
+            amount: 10000
 
         });
 
