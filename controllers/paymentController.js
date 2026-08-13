@@ -126,7 +126,7 @@ export const createPayment = async (req, res) => {
 
             operator,
 
-            amount: 1500,
+            amount: 100,
 
             orderId
 
